@@ -8,25 +8,31 @@
 
     <style>
         body {
-            background-color: steelblue;
+            background-color: orange;
             margin: 0;
         }
 
         header {
             text-align: center;
-            background: steelblue;
+            background: darkorange;
             padding: 2em;
         }
 
         header h2 {
             text-align: center;
-            text-decoration: underline;
             font-size: 3em;
             padding: 0;
-            margin: 0;
+            margin-top: 1em;;
+            margin-bottom: 0;
         }
 
-        nav {}
+        button {
+            border-style: double;
+            border-color: black;
+            padding: 0.5em;
+            margin: 0.24em;
+            background-color: orange;
+        }
 
         article {
             padding: 1em;
@@ -41,6 +47,7 @@
             margin: 0 auto;
             display: grid;
         }
+
 
         @media screen and (min-width:580px) {
             .data-container {
@@ -110,8 +117,7 @@
     </main>
 
     <header>
-        <h2>MENU</h2>
-        <h1></h1>
+
         <nav>
             <button class="menu-item" data-kategori="alle">Alle</button>
             <button class="menu-item" data-kategori="Forretter">Forretter</button>
@@ -119,7 +125,8 @@
             <button class="menu-item" data-kategori="Desserter">Desserter</button>
             <button class="menu-item" data-kategori="Drikkevarer">Drikkevarer</button>
         </nav>
-
+<h2>MENU</h2>
+        <h1></h1>
     </header>
     <section class="data-container"></section>
 
