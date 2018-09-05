@@ -22,7 +22,8 @@
             text-align: center;
             font-size: 3em;
             padding: 0;
-            margin-top: 1em;;
+            margin-top: 1em;
+            ;
             margin-bottom: 0;
         }
 
@@ -100,7 +101,6 @@
             height: 50vw;
             /*object-fit: scale-down;*/
         }
-
     </style>
 </head>
 
@@ -121,11 +121,12 @@
         <nav>
             <button class="menu-item" data-kategori="alle">Alle</button>
             <button class="menu-item" data-kategori="Forretter">Forretter</button>
+             <button class="menu-item" data-kategori="Sideorders">Sideorders</button>
             <button class="menu-item" data-kategori="Hovedretter">Hovedretter</button>
             <button class="menu-item" data-kategori="Desserter">Desserter</button>
             <button class="menu-item" data-kategori="Drikkevarer">Drikkevarer</button>
         </nav>
-<h2>MENU</h2>
+        <h2>MENU</h2>
         <h1></h1>
     </header>
     <section class="data-container"></section>
@@ -148,7 +149,7 @@
     </template>
 
     <script>
-       let retter;
+        let retter;
         let modal = document.querySelector("#modal");
 
         let modtager = document.querySelector(".data-container"),
@@ -217,7 +218,6 @@
             modal.classList.remove("vis");
             //window.scrollTo(0);
         }
-
     </script>
 
 </body>
